@@ -2,14 +2,17 @@
   {
     "name": "BGKatana",
     "author": "bgkendall",
-    "css": ".keylabel1 {\n    opacity: 0%;\n}\n\n.keylabel9, .keylabel11 {\n    opacity: 33%;\n    margin-top: 0.5pt;\n    font-size: 5pt !important;\n}\n"
+    "css": ".keylabel1, .keylabel2, .keylabel7 {\n    opacity: 0%;\n}\n\n.keylabel3, .keylabel5, .keylabel9, .keylabel11 {\n    opacity: 33%;\n    margin-top: 0.5pt;\n    font-size: 5pt !important;\n}\n"
   },
   [
     {
       "x": 0.5,
+      "a": 0
+    },
+    "\n\nu\n\n0\n0\n\n\nKC_ESCAPE\nEsc",
+    {
       "a": 1
     },
-    "KC_ESCAPE\n\n\n\n0\n0\nEsc",
     "KC_Q\n\n\n\n0\n1\nQ",
     "KC_W\n\n\n\n0\n2\nW",
     "KC_D\n\n\n\n0\n3\nD",
@@ -23,11 +26,15 @@
     "KC_O\n\n\n\n0\n8\nO",
     "KC_Y\n\n\n\n0\n9\nY",
     "KC_EQUAL\n\n\n\n0\n10\n+<br>=",
-    "KC_BSPACE\n\n\n\n0\n11\nDel<br>BkSp"
+    {
+      "a": 0
+    },
+    "\n\nu\n\n0\n11\n\n\nKC_BSPC\nDel<br>BkSp"
   ],
   [
     {
-      "x": 0.25
+      "x": 0.25,
+      "a": 1
     },
     "KC_QUOTE\n\n\n\n1\n0\n\"<br>'",
     "KC_A\n\n\n\n1\n1\nA",
@@ -52,7 +59,7 @@
     "KC_MINUS\n\n\n\n1\n11\n_<br>-"
   ],
   [
-    "KC_LSHIFT\n\n\n\n2\n0\nShift",
+    "KC_LSFT\n\n\n\n2\n0\nShift",
     "LCTL_T(KC_Z)\n\n\n\n2\n1\nZ\n\n\n\n\nCtrl",
     "LALT_T(KC_X)\n\n\n\n2\n2\nX\n\n\n\n\nOpt",
     "KC_C\n\n\n\n2\n3\nC",
@@ -63,7 +70,13 @@
     },
     "RGUI_T(KC_K)\n\n\n\n2\n6\nK\n\n\n\n\nCmd",
     "RALT_T(KC_H)\n\n\n\n2\n7\nH\n\n\n\n\nOpt",
-    "KC_NONE\n\n\n\n2\n8\n<i class='fa fa-arrows'></i>",
+    {
+      "a": 0
+    },
+    "\n\n\n\n2\n8\n0\n0\nKC_NO\n<i class='fa fa-arrows'></i>\n5-way Navigation",
+    {
+      "a": 1
+    },
     "KC_COMMA\n\n\n\n2\n9\n(<br>,",
     "KC_DOT\n\n\n\n2\n10\n)<br>.",
     "RSFT_T(KC_SLASH)\n\n\n\n2\n11\n?<br>/\n\n\n\n\nShift"
@@ -77,10 +90,45 @@
     {
       "w": 6.25
     },
-    "LT2(KC_SPACE)\n\n\n\n3\n\n\n\n\n\n\nFn",
+    "LT(2, KC_SPACE)\n\n\n\n3\n5\n\n\n\n\n\nFn",
     {
       "w": 1.5
     },
-    "LT4(KC_ENTER)\n\n\n\n3\n8\nReturn\n\n\n\n\nNum"
+    "LT(4, KC_ENTER)\n\n\n\n3\n8\nReturn\n\n\n\n\nNum",
+    {
+      "x": 0.5,
+      "a": 0,
+      "w": 0.75,
+      "h": 0.25
+    },
+    "\n\n\n\n3\n6\n0\n1\nKC_UP\nUp",
+    {
+      "w": 0.25,
+      "h": 0.75
+    },
+    "\n\n\n\n3\n10\n0\n1\nKC_RIGHT\nRight"
+  ],
+  [
+    {
+      "y": -0.75,
+      "x": 12.5,
+      "w": 0.25,
+      "h": 0.75
+    },
+    "\n\n\n\n3\n7\n0\n1\nKC_LEFT\nLeft",
+    {
+      "w": 0.5,
+      "h": 0.5
+    },
+    "\n\n\n\n3\n9\n0\n1\nKC_NO"
+  ],
+  [
+    {
+      "y": -0.5,
+      "x": 12.75,
+      "w": 0.75,
+      "h": 0.25
+    },
+    "\n\n\n\n3\n11\n0\n1\nKC_DOWN\nDown"
   ]
 ]
