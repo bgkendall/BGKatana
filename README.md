@@ -1,7 +1,5 @@
 # BGKatana
 
-**CAUTION**: This board has yet to be built and adjustments may be needed.
-
 ![BGKatana Render](Exports/BGKatana-Render.png)
 
 BGKatana is a case for a hand-wired monoblock split keyboard with a “katana”-style
